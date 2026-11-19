@@ -1,2 +1,2 @@
 # Dami-Adeniyi
-The professional portfolio of Dami Adeniyi, showcasing web development, graphic design, AI agents, workflow automation, digital experiences, and creative technology projects.
+Dami Adeniyi's professional portfolio featuring AI agents, workflow automation, business systems, web development, graphic design, and interactive digital experiences.
