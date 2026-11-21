@@ -60,3 +60,17 @@
 .project-visual.wedding-portrait{aspect-ratio:2048/1462;background:transparent}
 .project-visual.wedding-portrait>img{object-fit:cover}
 @media(max-width:800px){.case-photo{padding:0}}
+
+/* MD Touch editorial project artwork, intentionally not represented as client logo */
+.md-project-art{background:radial-gradient(circle at 75% 20%,#34786c 0%,transparent 50%),linear-gradient(135deg,#113e39,#0b292d);color:#f2f5ed;display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;padding:30px;min-height:300px;overflow:hidden}
+.md-project-art:before{content:"";position:absolute;width:220px;height:220px;border:1px solid #c4e5d344;border-radius:50%;right:-45px;bottom:-70px;box-shadow:0 0 0 38px #b7e6d00b,0 0 0 76px #b7e6d008}
+.md-project-kicker,.md-project-caption{position:relative;z-index:1;font-size:10px;letter-spacing:.15em;font-weight:700;color:#c7e4d9}
+.md-project-name{position:relative;z-index:1;font-family:Manrope,sans-serif;font-weight:800;font-size:clamp(34px,4vw,57px);line-height:1.05;letter-spacing:-.055em}
+.md-project-name small{display:block;font-family:Georgia,serif;font-style:italic;font-size:.47em;letter-spacing:0;font-weight:400;margin-top:10px;color:#d7e8d9}
+.md-hero-art{background:radial-gradient(circle at 78% 20%,#317b6c,transparent 50%),linear-gradient(125deg,#103b37,#0b2629);min-height:450px;display:flex;flex-direction:column;justify-content:space-between;padding:clamp(25px,5vw,65px);position:relative;overflow:hidden}
+.md-hero-art:after{content:"";position:absolute;right:-110px;bottom:-190px;width:500px;height:500px;border-radius:50%;border:1px solid #c5e6d755;box-shadow:0 0 0 60px #d5f1e50a,0 0 0 120px #d5f1e508}
+.md-art-eyebrow,.md-art-foot{z-index:1;position:relative;color:#d7e9dc;font-size:12px;letter-spacing:.15em;font-weight:700}
+.md-art-name{z-index:1;position:relative;font-family:Manrope,sans-serif;font-size:clamp(55px,9vw,110px);line-height:1;letter-spacing:-.075em;font-weight:800;color:#f4f7ee}
+.md-art-name span{display:block;font-family:Georgia,serif;font-style:italic;font-weight:400;letter-spacing:-.02em;font-size:.45em;margin-top:14px;color:#d7e8d9}
+.md-art-note{font-size:12px;color:var(--muted);margin-top:12px}
+@media(max-width:520px){.md-project-art{min-height:240px;padding:22px}.md-hero-art{min-height:320px}.md-art-name{font-size:clamp(46px,11vw,70px)}}
