@@ -6,3 +6,9 @@
 
 /* Shaiglo project: real, optimized brand photo */
 .beauty-photo{position:relative;overflow:hidden;background:#19382c;isolation:isolate}.beauty-photo:before,.beauty-photo:after{content:none}.beauty-photo>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center;transition:transform .65s ease}.beauty-photo:hover>img{transform:scale(1.045)}.beauty-photo-label{position:absolute;z-index:1;left:18px;bottom:18px;padding:8px 12px;color:#fff8e8;background:#122d23c9;border:1px solid #d4ba8180;backdrop-filter:blur(8px);font-size:10px;letter-spacing:.16em;font-weight:700}@media(prefers-reduced-motion:reduce){.beauty-photo>img{transition:none}.beauty-photo:hover>img{transform:none}}
+
+/* Keep the full portrait image visible, without cutting off faces or products */
+.project-visual.beauty-photo{aspect-ratio:1062 / 1200;min-height:0;background:#19382c}
+.project-visual.beauty-photo>img{object-fit:contain;object-position:center;transform:none}
+.project-visual.beauty-photo:hover>img{transform:none}
+.beauty-photo-label{top:14px;bottom:auto;left:14px;right:auto;max-width:calc(100% - 28px)}
