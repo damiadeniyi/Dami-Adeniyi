@@ -52,3 +52,11 @@
 .case-footer{padding-top:35px;padding-bottom:45px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
 @media(max-width:800px){.case-columns{grid-template-columns:1fr;gap:12px}.case-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.case-hero{padding-top:48px;padding-bottom:60px}.case-section{padding-top:70px;padding-bottom:70px}.case-photo{padding:10px}}
 @media(max-width:520px){.case-grid,.case-steps{grid-template-columns:1fr}.case-header{align-items:flex-start;flex-direction:column}.case-hero h1{font-size:52px}.project-body .text-link+.text-link{margin-left:0;display:block;margin-top:10px}}
+
+/* Display the wedding photograph edge-to-edge at its natural aspect ratio */
+.case-photo{padding:0;background:transparent}
+.case-photo img{width:100%;height:auto;max-height:none;object-fit:contain}
+.case-photo figcaption{padding:12px 0 0;text-align:left;color:var(--muted)}
+.project-visual.wedding-portrait{aspect-ratio:2048/1462;background:transparent}
+.project-visual.wedding-portrait>img{object-fit:cover}
+@media(max-width:800px){.case-photo{padding:0}}
