@@ -12,3 +12,43 @@
 .project-visual.beauty-photo>img{object-fit:contain;object-position:center;transform:none}
 .project-visual.beauty-photo:hover>img{transform:none}
 .beauty-photo-label{top:14px;bottom:auto;left:14px;right:auto;max-width:calc(100% - 28px)}
+
+/* Becoming the Dadas: preserve complete portrait composition */
+.project-visual.wedding-portrait{aspect-ratio:4/5;min-height:0;background:#44273c}
+.project-visual.wedding-portrait>img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:1}
+.wedding-image-label{position:absolute;bottom:14px;left:14px;z-index:2;background:#281829d9;color:#fff3e8;padding:8px 12px;font-size:10px;font-weight:700;letter-spacing:.12em;max-width:calc(100% - 28px)}
+.project-body .text-link+.text-link{margin-left:16px}
+/* Dedicated case study */
+.case-header{display:flex;justify-content:space-between;gap:20px;align-items:center;padding-top:28px;padding-bottom:28px}
+.case-back{color:var(--gold);font-size:13px;font-weight:700;letter-spacing:.04em}
+.case-hero{padding-top:74px;padding-bottom:92px}
+.case-hero h1{font-family:Manrope,sans-serif;font-size:clamp(52px,9vw,116px);line-height:1.02;letter-spacing:-.07em;margin:22px 0 26px;max-width:1000px}
+.case-hero h1 em,.case-section h2 em{font-family:Georgia,serif;color:var(--gold);font-weight:400}
+.case-lede{max-width:800px;font-size:clamp(20px,2.6vw,31px);line-height:1.5;color:#d4ddd4}
+.case-meta{display:flex;gap:12px;flex-wrap:wrap;margin:34px 0 52px}
+.case-meta span{font-size:10px;letter-spacing:.1em;color:var(--gold);border:1px solid var(--line);padding:10px 13px}
+.case-photo{margin:0;background:#342337;padding:24px;text-align:center}
+.case-photo img{display:block;width:100%;max-height:720px;object-fit:contain}
+.case-photo figcaption{font-size:12px;color:#e5d9dc;padding-top:15px}
+.case-section{padding-top:100px;padding-bottom:100px}
+.case-section h2{font-family:Manrope,sans-serif;font-size:clamp(32px,5vw,64px);letter-spacing:-.055em;line-height:1.13;max-width:850px;margin:18px 0 32px}
+.case-section p{color:#bfcac3;font-size:17px;line-height:1.8}
+.case-columns{display:grid;grid-template-columns:1fr 1fr;gap:65px}
+.case-columns h2{margin-top:0}
+.case-alt{background:#192422}
+.case-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:40px}
+.case-grid article{border:1px solid #405149;padding:28px;background:#ffffff04}
+.case-grid h3{font-size:21px;margin:8px 0 10px}
+.case-grid p{font-size:15px;margin:0}
+.case-index{color:var(--gold);font-size:13px;letter-spacing:.1em}
+.case-intro{max-width:770px}
+.case-steps{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:38px}
+.case-steps>div{border-top:2px solid var(--gold);padding-top:17px}
+.case-steps strong{display:block;color:var(--gold);font-size:13px;margin-bottom:18px}
+.case-steps span{font-weight:700;font-size:17px}
+.case-steps p{font-size:14px;line-height:1.6}
+.case-end{display:flex;gap:25px;align-items:center;flex-wrap:wrap;margin-top:42px}
+.case-cta{display:inline-block;background:var(--gold);color:#18201c;font-weight:800;padding:15px 24px}
+.case-footer{padding-top:35px;padding-bottom:45px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+@media(max-width:800px){.case-columns{grid-template-columns:1fr;gap:12px}.case-steps{grid-template-columns:repeat(2,minmax(0,1fr))}.case-hero{padding-top:48px;padding-bottom:60px}.case-section{padding-top:70px;padding-bottom:70px}.case-photo{padding:10px}}
+@media(max-width:520px){.case-grid,.case-steps{grid-template-columns:1fr}.case-header{align-items:flex-start;flex-direction:column}.case-hero h1{font-size:52px}.project-body .text-link+.text-link{margin-left:0;display:block;margin-top:10px}}
